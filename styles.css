@@ -51,3 +51,42 @@ select {
   font-size: inherit;
 }
 /* CSS Reset */
+
+body {
+  background-color: #f0f7fc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  font-family: "Roboto", serif;
+}
+
+.slideshow {
+  width: 80vw;
+  height: 80vh;
+  border: 5px solid #5da7de;
+  border-radius: 0.25rem;
+}
+
+.prev-next-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+button {
+  font-size: 2.5rem;
+  background-color: transparent;
+  border: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  color: #4A4A4A;
+}
+
+button:hover {
+  color: #5da7de;
+}
+
+.hide {
+  display: none;
+}
