@@ -52,6 +52,7 @@ select {
 }
 /* CSS Reset */
 
+/* ----- METHOD 1 & 2 ----- */
 body {
   background-color: #f0f7fc;
   display: flex;
@@ -67,6 +68,19 @@ body {
   height: 80vh;
   border: 5px solid #5da7de;
   border-radius: 0.25rem;
+  transition: background 1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide-text {
+  font-size: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 0.25rem;
+  width: 60%;
+  text-align: center;
+  padding: 0.5rem;
 }
 
 .prev-next-buttons {
@@ -79,7 +93,7 @@ button {
   background-color: transparent;
   border: none;
   text-transform: uppercase;
-  transition: 0.5s;
+  transition: 0.25s;
   color: #4A4A4A;
 }
 
@@ -90,3 +104,5 @@ button:hover {
 .hide {
   display: none;
 }
+
+
